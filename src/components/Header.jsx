@@ -22,7 +22,7 @@ const Header = () => {
     },
     {
       title: 'Banner',
-      link: '/portfolio/banner',
+      link: '/banner',
       component: Banner ,
       id: "2"
     },
@@ -75,7 +75,7 @@ const Header = () => {
          
                   <Router>
                       <Link className=' hover:text-purple-300' to="/">Home</Link>
-                      <Link className=' hover:text-purple-300' to="/portfolio/banner" onClick={() =>scrollToSection("bannerId")}>Banner</Link>
+                      <Link className=' hover:text-purple-300' to="/banner" onClick={() =>scrollToSection("bannerId")}>Banner</Link>
                       <Link className=' hover:text-purple-300' to="/about"onClick={() =>scrollToSection("aboutId")}>About</Link>
                         <Link className=' hover:text-purple-300' to="/service"onClick={() =>scrollToSection("serviceId")}>Service</Link>
                        <Link className=' hover:text-purple-300' to="/expertise"onClick={() =>scrollToSection("expertiseId")}>Expertise</Link>
