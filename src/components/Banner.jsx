@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import bannerImage from '../assets/bg1.png';
 import bannnerBackground from '../assets/final.png';
 import Typed from 'typed.js';
+
+import resume from '../assets/Abhishek-Singha resume.pdf'
 const Banner = () => {
 
   const el = useRef(null);
@@ -23,14 +25,14 @@ const Banner = () => {
     };
   }, []);
   return (
-    <div id='bannerId'  className='main flex flex-col md:flex-row items-center h-full '>
+    <div id='bannerId'  className='main flex flex-col md:flex-row items-center h-full shadow-xl'>
        {/* this is text portion */}
         <div 
         className=' w-full py-10 flex justify-center bg-gradient-to-r from-indigo-500 via-purple-300 to-white'>
           <div className='w-2/3 space-y-2 ms-2'>
-          <h3 className='text-xl md:text-2xl lg:text-3xl font-semibold'>Hi, I am</h3>
+          <h3 className='text-xl md:text-2xl lg:text-3xl font-bold'>Hi, I am</h3>
           <h1 className='text-xl md:text-2xl lg:text-5xl font-bold'>Abhishek Singha</h1>
-          <h4 className='text-2xl md:text-3xl lg:text-4xl'>I am a <span className="" ref={el}></span></h4>
+          <h4 className='text-xl md:text-3xl lg:text-4xl'>I am a <span className="" ref={el}></span></h4>
           <p className='text-1xl'>Experienced in leveraging cutting-edge technologies to meet and exceed project goals</p>
       
        <div className='iconContainer space-x-2'>
@@ -39,7 +41,10 @@ const Banner = () => {
        </div>
        
         <br/>
-        <a className=' px-3 py-2 bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full text-1xl' href='/contact'> Contact Me</a>     
+        {/* <a className=' bg-gradient-to-r from-blue-500 to-red-500 text-white px-4 py-2 text-xl rounded font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate text-1xl' href={resume} download={resume}> Download CV <i class="fa-solid fa-download"></i></a>      */}
+        <button className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400" href={resume} download={resume}>
+  Download CV   <i class="fa-solid fa-download"></i>
+</button>
             </div>  
       </div>
 

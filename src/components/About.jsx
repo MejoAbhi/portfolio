@@ -17,20 +17,22 @@ const About = () => {
      })
    
   return (
-    <div id='aboutId' className='main md:py-16 md:px-16 '>
+    <div id='aboutId' className='main py-16 md:py-16 md:px-16 shadow-xl'>
        {/* bg-gradient-to-b from-gray-100 to-slate-50  */}
-       <h1 className='text-center text-5xl underline font-bold'>About </h1>
+       <h1 className='text-center text-5xl underline font-mono'>About </h1>
        <div className='flex items-center py-2 flex-col-reverse md:flex-row  h-full'>
+
         {/* image container */}
         <div className='w-fit justify-center'>
           
-        <img className='w-full' src={data.image}/>
+        <img className='w-full md:shadow-md ' src={data.image}/>
         </div>
+
         {/* text container */}
         <div className='w-full flex justify-center md:justify-end'>
          
           <div className='space-y-5 w-2/3'>
-          <h1 className='text-3xl  font-semibold'>{data.title}</h1>
+          <h1 className='text-3xl  font-mono'>{data.title}</h1>
           <p>{data.desc1}</p>
 
           <p style={isOpen ? null:paragraphStyles}>{data.desc2}</p>

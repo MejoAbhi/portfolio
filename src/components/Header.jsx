@@ -70,7 +70,7 @@ const Header = () => {
   <div className='text-2xl font-bold'>
     <h1>{brandName}</h1>
   </div>
-  <div className='flex flex-wrap justify-center gap-4'>
+  <div className='hidden md:block lg:flex flex-wrap justify-center gap-4'>
 
          
                   <Router>
