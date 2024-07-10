@@ -2,7 +2,7 @@ import React from 'react'
 
 const Expretise = () => {
   return (
-    <div className='space-y-6'>
+    <div id='expertiseId' className='space-y-6'>
         <h1 className='text-center font-bold text-4xl md:text-5xl underline'>Expertise</h1>
         <div className='box-container items-center flex flex-col md:flex-row md:max-w-full '>
             <div className='flex justify-center py-6 text-white bg-gradient-to-r from-indigo-500 via-purple-300 to-white'>

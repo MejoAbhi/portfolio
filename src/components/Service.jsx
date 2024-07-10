@@ -25,7 +25,7 @@ const Service = (serviceRef) => {
     }
 )
   return (
-    <div   className='main py-16 md:py-16 '>
+    <div id='serviceId'  className='main py-16 md:py-16 '>
         <h1 className='text-5xl text-bold underline text-center'>My Services</h1>
         <div className='service-container mt-12 flex flex-col md:flex-row space-y-6  px-10 space-x-6'>
             <div className='service1 mt-6 ml-6 bg-slate-100 hover:bg-gray-300 p-5 text-center shadow-lg rounded-xl space-y-4  '>

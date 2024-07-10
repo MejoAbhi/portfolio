@@ -17,7 +17,7 @@ const About = () => {
      })
    
   return (
-    <div className='main md:py-16 md:px-16 '>
+    <div id='aboutId' className='main md:py-16 md:px-16 '>
        {/* bg-gradient-to-b from-gray-100 to-slate-50  */}
        <h1 className='text-center text-5xl underline font-bold'>About </h1>
        <div className='flex items-center py-2 flex-col-reverse md:flex-row  h-full'>

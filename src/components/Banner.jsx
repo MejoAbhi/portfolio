@@ -23,7 +23,7 @@ const Banner = () => {
     };
   }, []);
   return (
-    <div   className='main flex flex-col md:flex-row items-center h-full '>
+    <div id='bannerId'  className='main flex flex-col md:flex-row items-center h-full '>
        {/* this is text portion */}
         <div 
         className=' w-full py-10 flex justify-center bg-gradient-to-r from-indigo-500 via-purple-300 to-white'>
