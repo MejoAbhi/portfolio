@@ -26,8 +26,8 @@ const Banner = () => {
     <div   className='main flex flex-col md:flex-row items-center h-full '>
        {/* this is text portion */}
         <div 
-        className=' w-full py-6 flex justify-center bg-gradient-to-r from-indigo-500 via-purple-300 to-white'>
-          <div className='w-2/3 space-y-2 ms-10'>
+        className=' w-full py-10 flex justify-center bg-gradient-to-r from-indigo-500 via-purple-300 to-white'>
+          <div className='w-2/3 space-y-2 ms-2'>
           <h3 className='text-xl md:text-2xl lg:text-3xl font-semibold'>Hi, I am</h3>
           <h1 className='text-xl md:text-2xl lg:text-5xl font-bold'>Abhishek Singha</h1>
           <h4 className='text-2xl md:text-3xl lg:text-4xl'>I am a <span className="" ref={el}></span></h4>
