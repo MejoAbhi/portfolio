@@ -3,7 +3,7 @@ import bannerImage from '../assets/bg1.png';
 import bannnerBackground from '../assets/final.png';
 import Typed from 'typed.js';
 
-import resume from '../assets/Abhishek-Singha resume.pdf'
+import resume from 'https://github.com/MejoAbhi/portfolio/raw/src/assets/Abhishek-Singha resume.pdf'
 const Banner = () => {
 
   const el = useRef(null);
