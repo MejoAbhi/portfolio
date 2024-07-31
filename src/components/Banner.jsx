@@ -3,7 +3,7 @@ import bannerImage from '../assets/bg1.png';
 import bannnerBackground from '../assets/final.png';
 import Typed from 'typed.js';
 
-import resume from 'https://github.com/MejoAbhi/portfolio/raw/src/assets/Abhishek-Singha resume.pdf'
+//import resume from 'src/assets/Abhishek-Singha resume.pdf'
 const Banner = () => {
 
   const el = useRef(null);
@@ -42,7 +42,7 @@ const Banner = () => {
        
         <br/>
         {/* <a className=' bg-gradient-to-r from-blue-500 to-red-500 text-white px-4 py-2 text-xl rounded font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate text-1xl' href={resume} download={resume}> Download CV <i class="fa-solid fa-download"></i></a>      */}
-        <a className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400" href={resume} download="Abhishek-Singha resume.pdf">
+        <a className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400" href="src/assets/Abhishek-Singha resume.pdf" download="Abhishek-Singha resume.pdf">
   Download CV   <i class="fa-solid fa-download"></i>
 </a>
             </div>  
