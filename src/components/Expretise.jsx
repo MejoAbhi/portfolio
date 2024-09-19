@@ -8,8 +8,9 @@ const Expretise = () => {
             <div className='flex justify-center py-6 text-white bg-gradient-to-r from-indigo-500 via-purple-300 to-white'>
                 <div className='w-2/3 text-center space-y-5'>
                 <h1 className='text-2xl font-semibold md:text-3xl'>I love these Technologies</h1>
-                <p className='text-xl md:text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nulla dolorem quia cum nesciunt optio ducimus quasi rem voluptates, incidunt veniam quaerat. Recusandae odit placeat labore fugiat magnam tempore maxime?</p>
-                <button className='md:text-2xl px-4 py-2  bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full text-1xl' href='/contact'> Hire Me</button>
+                <p className='text-xl md:text-2xl'>
+                I have a strong passion for web development and its transformative power. Creating dynamic websites allows me to blend creativity with technical skills, bringing ideas to life online. I love the process of coding, whether it’s crafting sleek user interfaces or implementing robust back-end systems. The constant evolution of web technologies, like frameworks and libraries, keeps me engaged and eager to learn. </p>
+                {/* <button className='md:text-2xl px-4 py-2  bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full text-1xl' href='/contact'> Hire Me</button> */}
                 </div>
             </div>
             {/* skills container */}

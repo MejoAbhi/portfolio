@@ -6,7 +6,7 @@ import expense from '../assets/expense.png'
 export const webdev = [
     {
         id: 1,
-        description: "Guessing Game",
+        description: "",
         link: "lnnnnnnj",
         image:guess
     },
@@ -22,7 +22,7 @@ export const smallProjects = [
     {
         id: 1,
         description: "This is Guessing game.a random number willbe generated for guessing and after every entry it will tell the given number is less or high from the actual number.",
-        link: "https://mejoabhi.github.io/guessgame/",
+        link: "https://mejoabhi.github.io/guessGame/",
         image:guess
     },
     {

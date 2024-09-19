@@ -39,10 +39,10 @@ const Header = () => {
     }
   ]);
 
-  const actionButton = {
-    title: "Hire Me",
-    link: "/hire-me"
-  };
+  // const actionButton = {
+  //   title: "Hire Me",
+  //   link: "/hire-me"
+  // };
 
   return (
   
@@ -52,14 +52,14 @@ const Header = () => {
         <div className='text-2xl font-bold'>
           <h1>{brandName}</h1>
         </div>
-        <div className='flex flex-wrap justify-end gap-4'>
+        <div className='flex flex-wrap justify-end gap-4 hidden '>
           {menuLinks.map((link) => (
             <a key={link.id} href={link.link} className='hover:text-pink-100' >{link.title}</a>
           ))}
         </div>
-        <a href={actionButton.link} className='px-3 py-2 bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full text-1xl'>
+        {/* <a href={actionButton.link} className='px-3 py-2 bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full text-1xl'>
           {actionButton.title}
-        </a>
+        </a> */}
       </div>
     </div>
 

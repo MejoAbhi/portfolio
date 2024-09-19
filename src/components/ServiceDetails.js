@@ -19,9 +19,9 @@ const ServiceDetails = ({ services, onClose }) => {
 
                 <span className="close" onClick={onClose}>&times;</span>
                 <h2>Service Details</h2>
-                <div>
+                <div className='flex flex-col justify-center items-center'>
                     <p>{service.description}</p>
-                   <p>{service.link}</p>
+                   <a href={service.link}><p>{service.link}</p></a>
                    <img src={service.image}/>
                 </div>
                 <button onClick={handleNext} className="mt-4 px-3 py-2 bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full">
