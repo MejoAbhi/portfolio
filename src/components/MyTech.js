@@ -34,7 +34,7 @@ export const smallProjects = [
     {
         id: 3,
         description: "This is  ",
-        link: "https://mejoabhi.github.io/expenseUpdate/",
-        image:expense
+        link: "https://mejoabhi.github.io/tossmachine/",
+        image:toss
     }
 ];
