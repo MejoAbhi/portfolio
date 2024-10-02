@@ -2,7 +2,7 @@
 import React from 'react';
 import guess from '../assets/guess.png'
 import toss from '../assets/toss.png'
-import expense from '../assets/expense.png'
+import expense from '../assets/expensetracker.png'
 import shoppingcart from '../assets/shoppingcart.png';
 export const webdev = [
     {
