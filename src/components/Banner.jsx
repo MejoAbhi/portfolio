@@ -56,12 +56,12 @@ const Banner = () => {
        </div>
        
         <br/>
-        
+
         <div className=' flex'>
 
         {/* <a className=' px-3 py-2 bg-gradient-to-r from-fuchsia-300 to-purple-500 hover:from-pink-500 hover:to-purple-300 rounded-full text-1xl' href='/contact'> Contact Me</a> 
              */}
-     <a className="button flex gap-2 bg-black text-white rounded p-2" href='/AbhishekSingha-Resume.pdf' download = "AbhishekSingha-Resume.pdf">
+     <a className="button flex gap-2 bg-black text-white rounded p-2" href='AbhishekSingha-Resume.pdf' download = "AbhishekSingha-Resume.pdf">
       Download Resume <svg
       viewBox="0 0 512 512"
       fill="currentColor"
