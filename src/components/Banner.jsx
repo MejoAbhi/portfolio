@@ -37,7 +37,7 @@ const Banner = () => {
       
        <div className='iconContainer space-x-2'>
        <a className='' href='https://github.com/MejoAbhi'><i class="fa-brands fa-github"></i></a>
-      <a className=''href='https://www.linkedin.com/in/abhishek-singha-65788520a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a> 
+      {/* <a className=''href='https://www.linkedin.com/in/abhishek-singha-65788520a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>  */}
        </div>
        
         <br/>
