@@ -35,7 +35,7 @@ export const smallProjects = [
     {
         id: 3,
         description: "This is a toss machine. It will generate a random side.",
-        link: "https://mejoabhi.github.io/tossmachine/",
+        link: "https://mejoabhi.github.io/tossmachines/",
         image:toss
     },
     {
